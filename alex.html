@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <title>ITC 102</title>
+                    
+                    <link rel="stylesheet" href="C:\Users\rac\Documents\Joe's Doc\SCCollege\IT_102\Website\css\index.css">
+                </head>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                    <script>
+                        $(document).ready(function()
+                        {
+                            $(".box1").click(function()
+                            {
+                            if ($(this).attr("src") == "../images/washington_1280.jpg")
+                            {
+                                $(this).attr("src", "../images/shumi.png");
+                            }
+                            else
+                            {
+                                $(this).attr("src",  "../images/washington_1280.jpg");
+                            }
+                            });
+                        });
+                    </script>
+    <body>
+        <div id="wrapper">
+            <div id="silver">
+                    <h1 id="header">Minnie Yang</h1>
+            </div>
+            <div class="nav">
+                    <a href="../html/index.html"><button class ="button" >Home</button></a>
+                    <a href="../html/joe.html"><button class ="button" >Joe</button></a>
+                    <a href="../html/alex.html"><button class ="button" >Alex</button></a>
+                    <a href="../html/shumi.html"><button class ="button" >Shumi</button></a>
+            </div>
+            <div class="top_section">
+                    <div class="box1">
+                            <img class="box1" src="../images/washington_1280.jpg">
+                            <p class="boxtext">Click image to see what I've learned</p>
+                        </div>
+                    <div class="bio">
+                    <p>My name is Shumi Yang, I'm from Taiwan. My English name is Minnie. 
+                        I came here almost 6 years. During this time, I improved my English 
+                        skill and got my second master's degree. I previously worked as a web 
+                        designer. When I was a designer, I found that I was interest in learning 
+                        web programming. I changed my field to become a project manager. The reason 
+                        why I came here to study web development is that I hope I can learn more about 
+                        web development and IT field. I like IT field and sometimes I tried to solve my 
+                        computer's problems. Hope I can learn a lot from class and find a good job in the future.</p>
+                    </div>
+            </div>
+            <div id="footer">
+                    <a href="https://github.com/jpagani1984" target="blank">
+                        <img class="media" src="../images/GitHub.png">Joe</a>
+                    <a href="https://github.com/alexseeler" target="blank">
+                        <img class="media" src="../images/GitHub.png">Alex</a>
+                    <a href="https://github.com/mimiwhite186" target="blank"> 
+                        <img class="media" src="../images/GitHub.png">Shumi</a>
+            </div>
+        </div>
+    </body>
+</html>

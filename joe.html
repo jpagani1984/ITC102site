@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <title>ITC 102</title>
+                    
+                    <link rel="stylesheet" href="C:\Users\rac\Documents\Joe's Doc\SCCollege\IT_102\Website\css\index.css">
+                </head>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                    <script>
+                        $(document).ready(function()
+                        {
+                            $(".box1").click(function()
+                            {
+                            if ($(this).attr("src") == "../images/snowboard.PNG")
+                            {
+                                $(this).attr("src", "../images/joe.png");
+                            }
+                            else
+                            {
+                                $(this).attr("src",  "../images/snowboard.PNG");
+                            }
+                            });
+                        });
+                    </script>
+    <body>
+        <div id="wrapper">
+            <div id="silver">
+                    <h1 id="header">Minnie Yang</h1>
+            </div>
+            <div class="nav">
+                    <a href="../html/index.html"><button class ="button" >Home</button></a>
+                    <a href="../html/joe.html"><button class ="button" >Joe</button></a>
+                    <a href="../html/alex.html"><button class ="button" >Alex</button></a>
+                    <a href="../html/shumi.html"><button class ="button" >Shumi</button></a>
+            </div>
+            <div class="top_section">
+                    <div class="box1">
+                            <img class="box1" src="../images/snowboard.PNG">
+                            <p class="boxtext">Click image to see what I've learned</p>
+                        </div>
+                    <div class="bio">
+                    <p>My name is Joe Pagani.  I am originally from Long Island, NY.  My wife and I moved
+                        out to Washington about 7 years ago when I enlisted in the Navy.  I spent 4 years 
+                        on the USS Nimitz as a plane director working on the flight deck.  I got out in 2016
+                        and we decided to continue to call Washington Home.  Both my wife and I are Skiier/Snowboarders 
+                        and love the West Coast mountains.  I decided to persue an education in Web Developement starting at the coding Dojo in bellevue,
+                        since I have always had a passion for computers and building websites, I realized that, that
+                        was what I wanted to do for a living.  Finding a difficult to find solely on what I knew and not having a degree
+                        to back it up I decided to enroll in College and and get a degree.  Through this program I hope 
+                        to finally be able to work doing what I love and enjoy.
+                    </p>
+                    </div>
+            </div>
+            <div id="footer">
+                    <a href="https://github.com/jpagani1984" target="blank">
+                        <img class="media" src="../images/GitHub.png">Joe</a>
+                    <a href="https://github.com/alexseeler" target="blank">
+                        <img class="media" src="../images/GitHub.png">Alex</a>
+                    <a href="https://github.com/mimiwhite186" target="blank"> 
+                        <img class="media" src="../images/GitHub.png">Shumi</a>
+            </div>
+        </div>
+    </body>
+</html>
