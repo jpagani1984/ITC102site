@@ -38,6 +38,7 @@
 }
 #silver
 {
+ margin: 0 auto;
  height: 36px;
  width: 70%;
  padding: 10px;
@@ -47,6 +48,7 @@
 }
 #footer
 {
+ margin: 0 auto;
  height: 44px;
  width: 70%;
  padding: 10px;
@@ -65,7 +67,8 @@
 .box1
 {
     height: 371px;
-    width: 944px;
+    width: 70%;
+    margin: 0 auto;
     padding-left: 5px;
     padding-right: 0px;
     border-radius: 23px;
@@ -75,8 +78,9 @@
 .bio 
 {
     height: 336px;
-    width: 922px;
-	background-color: whitesmoke;
+    width: 60%;
+    margin: 0 auto;
+    background-color: whitesmoke;
     color:darkslateblue;
     font-size: 25px;
     font-family: Arial, sans-serif;
