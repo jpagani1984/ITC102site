@@ -5,12 +5,9 @@
 }
 #wrapper
 {
-   width:970px;
-  height: 100%;
-   margin: 0px;
+   width: 70%;
+   margin: 0 auto;
    min-height: 100%;
-   margin-left: auto;
-   margin-right: auto;
    position: relative;
    background: radial-gradient(rgb(111,89,100),rgb(27,11,15));
 }
