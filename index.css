@@ -13,9 +13,7 @@
 }
 #homepage
 {
-    height: 633px;
-    width: 950px;
-    margin: 10px;
+    width: 70%;
     margin-top: 68px;
 }
 .heading
@@ -29,7 +27,7 @@
 .nav
 {
     height: 36px;
-    width: 950px;
+    width: 70%;
     padding: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -41,7 +39,7 @@
 #silver
 {
  height: 36px;
- width: 950px;
+ width: 70%;
  padding: 10px;
  margin-bottom: 10px;
  text-align: center;
@@ -50,7 +48,7 @@
 #footer
 {
  height: 44px;
- width: 950px;
+ width: 70%;
  padding: 10px;
  margin-bottom: 10px;
  text-align: center;
