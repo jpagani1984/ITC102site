@@ -11,6 +11,11 @@
    position: relative;
    background: radial-gradient(rgb(111,89,100),rgb(27,11,15));
 }
+img
+{
+ width: 70%;
+margin: 0 auto;
+}
 #homepage
 {
     width: 70%;
